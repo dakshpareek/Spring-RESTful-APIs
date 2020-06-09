@@ -14,8 +14,8 @@ public class testApplication {
         ApplicationContext applicationContext = SpringApplication.run(testApplication.class, args);
 
         BinarySearchImpl binarySearch = applicationContext.getBean(BinarySearchImpl.class);
-        int result = binarySearch.binarySearch(new int[]{1,2,3,4},2);
-        System.out.println("Element AT: "+result);
+        //int result = binarySearch.binarySearch(new int[]{1,2,3,4},2);
+        //System.out.println("Element AT: "+result);
     }
 
 }
